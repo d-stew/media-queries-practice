@@ -15,14 +15,28 @@
   text-decoration: none;
 }
 
+.burger i {
+  display: none;
+}
+
 .nav a {
   text-decoration: none;
   color: rgb(202, 211, 214)
 }
 
 @media only screen and (max-width: 615px) {
-  .nav li {
+  /*.nav li {
     display: block;
     border-bottom: 1px solid rgb(40, 40, 40);
+  }*/
+  li.main {
+    display: none;
   }
+  .burger i {
+    display: inline;
+  }
+/*
+  i {
+    display: inline;
+  }*/
 }
